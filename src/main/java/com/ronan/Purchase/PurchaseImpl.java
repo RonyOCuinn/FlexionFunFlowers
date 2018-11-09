@@ -1,4 +1,4 @@
-package com.ronan;
+package com.ronan.Purchase;
 
 import com.flexionmobile.codingchallenge.integration.Purchase;
 
@@ -6,15 +6,12 @@ public class PurchaseImpl implements Purchase {
 
     private String id;
     private String itemId;
-    private boolean Consumed;
+    private boolean consumed;
 
     public PurchaseImpl(String id, String itemId, boolean consumed) {
         this.id = id;
         this.itemId = itemId;
-        Consumed = consumed;
-    }
-
-    public PurchaseImpl() {
+        this.consumed = consumed;
     }
 
     @Override
@@ -29,7 +26,7 @@ public class PurchaseImpl implements Purchase {
 
     @Override
     public boolean getConsumed() {
-        return Consumed;
+        return consumed;
     }
 
     public void setId(String id) {
@@ -41,6 +38,6 @@ public class PurchaseImpl implements Purchase {
     }
 
     public void setConsumed(boolean consumed) {
-        Consumed = consumed;
+        this.consumed = consumed;
     }
 }

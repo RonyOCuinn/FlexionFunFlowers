@@ -1,7 +1,7 @@
 package com.ronan;
 
 import com.flexionmobile.codingchallenge.integration.IntegrationTestRunner;
-import com.ronan.Integration.IntegrationImpl;
+import com.ronan.integration.IntegrationImpl;
 
 public class Main {
 

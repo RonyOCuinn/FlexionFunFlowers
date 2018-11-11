@@ -1,4 +1,4 @@
-package com.ronan.Purchase;
+package com.ronan.purchase;
 
 import com.flexionmobile.codingchallenge.integration.Purchase;
 
